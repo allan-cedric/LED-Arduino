@@ -11,12 +11,10 @@
 // -- Classe LED --
 class LED
 {
-    // -- Atributos privados --
 private:
     uint8_t _pin;   // Pino que o LED está associado
     uint8_t _state; // Estado do LED
 
-    // -- Métodos públicos --
 public:
     // Construtor
     LED(uint8_t pin);
