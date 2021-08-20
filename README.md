@@ -4,7 +4,7 @@
 ## How to use ?
 * Include the library and call the constructor `LED`
 ```C++
-#include "LED.h" // Path example
+#include "LED-Arduino.h" // Path example
 
 LED _led(8); //Ex.: Digital Pin 8 on Arduino UNO
 
