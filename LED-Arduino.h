@@ -2,8 +2,8 @@
 // -- Plataforma: Arduino --
 // -- Autor: Allan Cedric --
 
-#ifndef __LED_H__
-#define __LED_H__
+#ifndef __LED_ARDUINO_H__
+#define __LED_ARDUINO_H__
 
 // -- Bibliotecas --
 #include <Arduino.h>

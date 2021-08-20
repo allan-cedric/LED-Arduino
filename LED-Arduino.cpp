@@ -2,7 +2,7 @@
 // -- Plataforma: Arduino --
 // -- Autor: Allan Cedric --
 
-#include "LED.h"
+#include "LED-Arduino.h"
 
 LED::LED(uint8_t pin)
 {
