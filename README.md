@@ -1,8 +1,12 @@
 ## LED Library (C/C++)
 * Simple library to control a LED on Arduino platform
 
+| ![LED](./led.jpg) |
+| :---------------: |
+|     *Red LED*     |
+
 ## How to use ?
-* Include the library and call the constructor `LED`
+* Include the library and call the constructor `LED`:
 ```C++
 #include "LED-Arduino.h" // Path example
 
