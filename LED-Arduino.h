@@ -12,20 +12,32 @@
 class LED
 {
 private:
-    uint8_t _pin;   // Pino que o LED está associado
+    uint8_t _pin;   // Pino do LED
     uint8_t _state; // Estado do LED
 
 public:
-    // Construtor
+    /*!
+        @brief  Construtor
+
+        @param  pin Pino do LED
+    */
     LED(uint8_t pin);
 
-    // Liga o LED
+    /*!
+        @brief  Liga o LED
+    */
     void turnOn();
 
-    // Desliga o LED
+    /*!
+        @brief  Desliga o LED
+    */
     void turnOff();
 
-    // Retorna o estado do LED
+    /*!
+        @brief  Retorna o estado do LED
+
+        @return 1 se estiver ligado, senão 0
+    */
     uint8_t getState();
 };
 

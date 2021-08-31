@@ -1,4 +1,4 @@
-// -- Implementação da Classe LED --
+// -- Implementação da classe LED --
 // -- Plataforma: Arduino --
 // -- Autor: Allan Cedric --
 
@@ -6,21 +6,21 @@
 
 LED::LED(uint8_t pin)
 {
-    _pin = pin;            // Atributo _pin recebe o pino setado
+    _pin = pin;
     pinMode(_pin, OUTPUT); // Seta o pino do LED como OUTPUT
-    LED::turnOff();        // Inicializa LED desligado
+    LED::turnOff();        // LED inicializa desligado
 }
 
 void LED::turnOn()
 {
-    _state = HIGH;              // Atributo _state recebe o estado atual
-    digitalWrite(_pin, _state); // LED vai para o nível HIGH
+    _state = HIGH;
+    digitalWrite(_pin, _state);
 }
 
 void LED::turnOff()
 {
-    _state = LOW;               // Atributo _state recebe o estado atual
-    digitalWrite(_pin, _state); // LED vai para o nível LOW
+    _state = LOW;
+    digitalWrite(_pin, _state);
 }
 
 uint8_t LED::getState()
