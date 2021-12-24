@@ -13,12 +13,14 @@ LED::LED(uint8_t pin)
 
 void LED::turnOn()
 {
+    pinMode(_pin, OUTPUT);
     _state = HIGH;
     digitalWrite(_pin, _state);
 }
 
 void LED::turnOff()
 {
+    pinMode(_pin, OUTPUT);
     _state = LOW;
     digitalWrite(_pin, _state);
 }
