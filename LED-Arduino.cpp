@@ -7,8 +7,7 @@
 LED::LED(uint8_t pin)
 {
     _pin = pin;
-    pinMode(_pin, OUTPUT); // Seta o pino do LED como OUTPUT
-    LED::turnOff();        // LED inicializa desligado
+    pinMode(_pin, OUTPUT); // Seta o pino do LED como OUTPUTs
 }
 
 void LED::turnOn()
