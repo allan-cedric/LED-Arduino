@@ -1,42 +1,42 @@
-// -- Classe que molda o comportamento de um LED --
-// -- Plataforma: Arduino --
-// -- Autor: Allan Cedric --
+// -- LED Class --
+// -- Plataform: Arduino --
+// -- Author: Allan Cedric --
 
 #ifndef __LED_ARDUINO_H__
 #define __LED_ARDUINO_H__
 
-// -- Bibliotecas --
+// -- Libraries --
 #include <Arduino.h>
 
-// -- Classe LED --
+// -- LED Class --
 class LED
 {
 private:
-    uint8_t _pin;   // Pino do LED
-    uint8_t _state; // Estado do LED
+    uint8_t _pin;   // LED pin
+    uint8_t _state; // LED state
 
 public:
     /*!
-        @brief  Construtor
+        @brief  Constructor
 
-        @param  pin Pino do LED
+        @param  pin LED pin
     */
     LED(uint8_t pin);
 
     /*!
-        @brief  Liga o LED
+        @brief  Turn the LED on
     */
     void turnOn();
 
     /*!
-        @brief  Desliga o LED
+        @brief  Turn the LED off
     */
     void turnOff();
 
     /*!
-        @brief  Retorna o estado do LED
+        @brief  Current LED state
 
-        @return 1 se estiver ligado, senão 0
+        @return 1 if LED is on, otherwise 0
     */
     uint8_t getState();
 };
