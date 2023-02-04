@@ -1,5 +1,5 @@
 ## LED Library (C/C++)
-* Simple library to control a LED on Arduino platform
+* Library to control a LED on Arduino platform
 
 | ![LED](./led.jpg) |
 | :---------------: |

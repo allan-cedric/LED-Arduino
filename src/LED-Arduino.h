@@ -5,7 +5,6 @@
 #ifndef __LED_ARDUINO_H__
 #define __LED_ARDUINO_H__
 
-// -- Libraries --
 #include <Arduino.h>
 
 // -- LED Class --

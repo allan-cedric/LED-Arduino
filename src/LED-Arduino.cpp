@@ -7,20 +7,19 @@
 LED::LED(uint8_t pin)
 {
     _pin = pin;
+    _state = LOW;
     pinMode(_pin, OUTPUT);
 }
 
 void LED::turnOn()
 {
     _state = HIGH;
-    pinMode(_pin, OUTPUT);
     digitalWrite(_pin, _state);
 }
 
 void LED::turnOff()
 {
     _state = LOW;
-    pinMode(_pin, OUTPUT);
     digitalWrite(_pin, _state);
 }
 

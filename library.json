@@ -1,0 +1,20 @@
+{
+    "name": "LED-Arduino",
+    "version": "1.0.0",
+    "description": "Library to control a LED on Arduino platform",
+    "keywords": "led, arduino",
+    "repository":
+    {
+        "type": "git",
+        "url": "https://github.com/allan-cedric/LED-Arduino.git"
+    },
+    "authors":
+    {
+        "name": "Allan Cedric",
+        "email": "allan.py3000@gmail.com"
+    },
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "atmelavr",
+    "headers": "LED-Arduino.h"
+}
